@@ -1,0 +1,3032 @@
+insta: https://www.instagram.com/ardreamconstruction/
+facebook: https://www.facebook.com/people/AR-Dream-Construction/61577306378249/#
+
+<!DOCTYPE html>
+
+<html lang="en" data-reactroot="">
+
+  <head>
+
+    <link
+
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900"
+
+      rel="stylesheet"
+
+    />
+
+    <link
+
+      rel="stylesheet"
+
+      href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap"
+
+      media="all"
+
+      id="shr-font-shadows-into-light"
+
+    />
+
+    <link
+
+      rel="stylesheet"
+
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+
+      crossorigin="anonymous"
+
+    />
+
+    <link href="./common/css/common.7.css" rel="stylesheet" />
+
+    <link href="./templates/template1/t1-style.7.css" rel="stylesheet" />
+
+    <link
+
+      rel="stylesheet"
+
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/css/intlTelInput.min.css"
+
+    />
+
+    <meta
+
+      name="viewport"
+
+      content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimal-ui"
+
+    />
+
+    <meta
+
+      property="og:image"
+
+      itemprop="image"
+
+      content="path/to/your/image.png"
+
+    />
+
+    <meta property="og:type" content="website" />
+
+    <meta property="og:description" content="Your Name (Your Title)" />
+
+    <meta name="title" content="Your Company Name" />
+
+    <script
+
+      src="https://connect.facebook.net/en_US/sdk.js?hash=9fd289b669a723c54e0d115f45a6f418&ua=modern_es6"
+
+      crossorigin="anonymous"
+
+    ></script>
+
+    <script
+
+      crossorigin="anonymous"
+
+      src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0"
+
+    ></script>
+
+    <script
+
+      defer=""
+
+      src="https://cdn.jsdelivr.net/npm/fabric@5.2.1/dist/fabric.min.js"
+
+    ></script>
+
+    <script defer="" src="./templates/common/js/webfont.js"></script>
+
+    <title>Digital Business Card</title>
+
+    <link rel="manifest" id="manifest-placeholder" />
+
+    <div>
+
+      <script>
+
+        var dynamicManifest = {
+
+          name: "Your Company Name",
+
+          short_name: "Your Company",
+
+          description: "Digital Business Card",
+
+          start_url: "https://yourwebsite.com/",
+
+          background_color: "#000000",
+
+          theme_color: "#0f4a73",
+
+          icons: [
+
+            {
+
+              src: "path/to/your/icon-256x256.png",
+
+              sizes: "256x256",
+
+              type: "image/png",
+
+            },
+
+          ],
+
+          display: "standalone",
+
+        };
+
+        const stringManifest = JSON.stringify(dynamicManifest);
+
+        const blob = new Blob([stringManifest], {
+
+          type: "application/json",
+
+        });
+
+        const manifestURL = URL.createObjectURL(blob);
+
+        document
+
+          .querySelector("#manifest-placeholder")
+
+          .setAttribute("href", manifestURL);
+
+      </script>
+
+      <script>
+
+        document.documentElement.style.setProperty("--theme-color", "#0085C4");
+
+        document.documentElement.style.setProperty(
+
+          "--theme-color-light",
+
+          "#0085C426"
+
+        );
+
+        window.cardId = "your-card-id";
+
+        const protocol = location.protocol;
+
+        window.cardData = {
+
+          cardId: "your-card-id",
+
+          companyName: "Your Company Name",
+
+          cardLink: "https://yourwebsite.com/",
+
+          fullUrl: "https://yourwebsite.com/",
+
+          agencyLinkDomainName: "yourwebsite.com",
+
+          agencyCardLinkDomainName: "yourwebsite.com",
+
+          qrCodeImageUrl: "path/to/your/qr_code.png",
+
+        };
+
+      </script>
+
+    </div>
+
+  </head>
+
+  <body>
+
+    <!-- home section start -->
+
+    <div class="page-wrapper" id="home-section">
+
+      <div class="page-details">
+
+        <div>
+
+          <div class="p-10"></div>
+
+          <div class="views-label">
+
+            <i class="fas fa-eye"></i>
+
+            Views:
+
+            <b>467</b>
+
+          </div>
+
+          <div class="profile-pic">
+
+            <img
+
+              src="/assets/logo.png"
+
+              class="profile-pic-img false"
+
+              crossorigin="anonymous"
+
+              alt="Company Logo"
+
+            />
+
+          </div>
+
+          <h1 class="firmname">AR Dream Construction</h1>
+
+          <h1 class="name">
+
+            Anantha Abbas
+
+            <span class="designation">(Engineer)</span>
+
+          </h1>
+
+          <div
+
+            style="
+
+              width: 60px;
+
+              background-color: #0085c4;
+
+              height: 2px;
+
+              margin-top: 15px;
+
+            "
+
+          ></div>
+
+        </div>
+
+        <div>
+
+          <div class="p-10"></div>
+
+          <div class="contact-buttons">
+
+            <a class="contact-button" href="tel:+911234567890">
+
+              <i class="fas fa-phone fa-flip-horizontal"></i>
+
+              Call
+
+            </a>
+
+            <a
+
+              class="contact-button"
+
+              target="_blank"
+
+              href="https://wa.me/911234567890?text=Got reference from your Digital vCard. Want to know more details."
+
+              rel="noreferrer"
+
+            >
+
+              <i class="fab fa-whatsapp"></i>
+
+              Whatsapp
+
+            </a>
+
+            <a class="contact-button" target="_blank" href="" rel="noreferrer">
+
+              <i class="fas fa-map-marker-alt fa-flip-horizontal"></i>
+
+              Direction
+
+            </a>
+
+            <a
+
+              class="contact-button"
+
+              target="_blank"
+
+              href="mailto:your.email@example.com"
+
+              rel="noreferrer"
+
+            >
+
+              <i class="fas fa-envelope fa-flip-horizontal"></i>
+
+              Mail
+
+            </a>
+
+          </div>
+
+          <table class="contact-action-table">
+
+            <tbody>
+
+              <tr>
+
+                <td>
+
+                  <a target="_blank" href="#" rel="noreferrer">
+
+                    <i
+
+                      class="fas fa-map-marker-alt contact-action-container-icon"
+
+                    ></i>
+
+                  </a>
+
+                </td>
+
+                <td>
+
+                  <a
+
+                    target="_blank"
+
+                    href="#"
+
+                    class="contact-action-container-text"
+
+                    style="max-width: 220px"
+
+                    rel="noreferrer"
+
+                    >Your City, Your State.</a
+
+                  >
+
+                </td>
+
+              </tr>
+
+              <tr>
+
+                <td>
+
+                  <a href="mailto:your.email@example.com">
+
+                    <i
+
+                      class="fas fa-envelope contact-action-container-icon"
+
+                    ></i>
+
+                  </a>
+
+                </td>
+
+                <td>
+
+                  <a
+
+                    href="mailto:your.email@example.com"
+
+                    class="contact-action-container-text"
+
+                    >your.email@example.com</a
+
+                  >
+
+                  <br />
+
+                  <a
+
+                    href="mailto:another.email@example.com"
+
+                    class="contact-action-container-text"
+
+                    >another.email@example.com</a
+
+                  >
+
+                  <br />
+
+                </td>
+
+              </tr>
+
+              <tr>
+
+                <td>
+
+                  <a
+
+                    target="_blank"
+
+                    href="https://yourwebsite.com/"
+
+                    rel="noreferrer"
+
+                  >
+
+                    <i class="fas fa-globe contact-action-container-icon"></i>
+
+                  </a>
+
+                </td>
+
+                <td>
+
+                  <a
+
+                    target="_blank"
+
+                    href="https://yourwebsite.com/"
+
+                    class="contact-action-container-text"
+
+                    rel="noreferrer"
+
+                    >https://yourwebsite.com/</a
+
+                  >
+
+                </td>
+
+              </tr>
+
+            </tbody>
+
+          </table>
+
+          <div class="p-30"></div>
+
+          <div class="shadow-buttons">
+
+            <a
+
+              class="shadow-button"
+
+              href="path/to/your/contact.vcf"
+
+              download=""
+
+            >
+
+              <i class="fas fa-download shadow-button-icon"></i>
+
+              Add to Phone Book
+
+            </a>
+
+            <a class="shadow-button save-card-button">
+
+              <i class="fas fa-cloud-download-alt shadow-button-icon"></i>
+
+              Save Card
+
+            </a>
+
+          </div>
+
+          <div class="p-30"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- home section end -->
+
+    <div class="section-container" id="about-us-section">
+
+      <div class="section-content-wrapper">
+
+        <h2 class="section-header">About Us</h2>
+
+        <table class="about-us-table">
+
+          <tbody>
+
+            <tr>
+
+              <td class="table-row-label">
+
+                <h3 class="table-row-label-text">Company Name</h3>
+
+                <b class="table-row-label-separator">:</b>
+
+              </td>
+
+              <td class="table-row-value">Your Company Name</td>
+
+            </tr>
+
+            <tr>
+
+              <td class="table-row-label">
+
+                <h3 class="table-row-label-text">Category</h3>
+
+                <b class="table-row-label-separator">:</b>
+
+              </td>
+
+              <td class="table-row-value">Your Industry</td>
+
+            </tr>
+
+            <tr>
+
+              <td class="table-row-label">
+
+                <h3 class="table-row-label-text">Year of Est.</h3>
+
+                <b class="table-row-label-separator">:</b>
+
+              </td>
+
+              <td class="table-row-value">2023</td>
+
+            </tr>
+
+            <tr>
+
+              <td class="table-row-label">
+
+                <h3 class="table-row-label-text">Nature of Business</h3>
+
+                <b class="table-row-label-separator">:</b>
+
+              </td>
+
+              <td class="table-row-value">Your Business Type</td>
+
+            </tr>
+
+          </tbody>
+
+        </table>
+
+        <h3 class="speciality-label">Our Specialities</h3>
+
+        <ul class="unorderedList">
+
+          <li>Knowledgeable team of professionals</li>
+
+          <li>Live In Touch With Our Customers</li>
+
+          <li>Ability to undertake bulk orders</li>
+
+          <li>Complete client satisfaction</li>
+
+          <li>On-time deliver/ execution</li>
+
+          <li>Ethical business policies</li>
+
+          <li>Transparent dealings</li>
+
+          <li>Best Consultancy</li>
+
+          <li>Qualitative products</li>
+
+          <li>Affordable pricing</li>
+
+          <li>Reliable services</li>
+
+          <li>Wide connectivity</li>
+
+          <li>Easy payment mode</li>
+
+          <li>Customized solutions</li>
+
+          <li>Use of advanced technology</li>
+
+          <li>We Provide Pan India services</li>
+
+          <li>A great experience with Happy clients</li>
+
+          <li>Low Price Guarantee with best services</li>
+
+          <li>We listen,We understand, We provide Solution</li>
+
+        </ul>
+
+        <div class="about-us-text">
+
+          <h2>Your Company Name - Your City</h2>
+
+          <h3>
+
+            'Your Company Name' is a Digital Visiting Card Agency which is
+
+            Launched on 2023. It helps to grows small businesses Digitally which
+
+            helps to improve your Marketing and Operations in digital platforms.
+
+          </h3>
+
+          <h3>
+
+            📱 IT Offers Digital card and Digital Marketing related Tools
+
+            &Services.
+
+          </h3>
+
+          <h3>
+
+            We focus to build 100% Trusted and Supported Digital Agency for all
+
+            your Business and Marketing Needs.
+
+          </h3>
+
+          <h3>
+
+            (Your localized message here) இன்றைய டிஜிட்டல் உலகில் உள்ள
+
+            தொழில்நுட்பங்களை பயன்படுத்தி உங்கள் தொழிலை வளர்ச்சி அடைய செய்ய
+
+            எங்களை தொடர்பு கொள்ளுங்கள்…!
+
+          </h3>
+
+          <h2>(Thank you in your language) நன்றி</h2>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="section-container" id="products-services-section">
+
+      <div class="section-content-wrapper">
+
+        <h2 class="section-header">Products/Services</h2>
+
+        <div class="product-section-wrapper">
+
+          <div class="product-card card">
+
+            <h3 class="card-title">CLICK TO CALL :</h3>
+
+            <div class="product-description">
+
+              <p>
+
+                Your customers will easily call you by just click your mobile
+
+                number on your vcard.
+
+              </p>
+
+            </div>
+
+            <img
+
+              class="product-image"
+
+              alt="CLICK TO CALL :"
+
+              src="path/to/your/product_image_1.jpg"
+
+              style="width: 100%; margin-bottom: 15px"
+
+            />
+
+            <div class="product-enquiry-section">
+
+              <div class="product-price"></div>
+
+              <div>
+
+                <a
+
+                  class="product-enquiry-btn product-download-button"
+
+                  data-productname="CLICK TO CALL :"
+
+                  data-productimage="path/to/your/product_image_1.jpg"
+
+                >
+
+                  <span id="download-label">
+
+                    <i class="fa fa-download"></i>
+
+                  </span>
+
+                  <span id="downloading">...</span>
+
+                </a>
+
+                <a
+
+                  href="https://wa.me/911234567890?text=Hi, I am interested in your product/service: CLICK TO CALL :. Please provide more details."
+
+                  target="blank"
+
+                  class="product-enquiry-btn"
+
+                  >Enquiry</a
+
+                >
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="product-card card">
+
+            <h3 class="card-title">CLICK TO WHATSAPP :</h3>
+
+            <div class="product-description">
+
+              <p>
+
+                Your customer can whatsapp you without even saving your number.
+
+              </p>
+
+            </div>
+
+            <img
+
+              class="product-image"
+
+              alt="CLICK TO WHATSAPP :"
+
+              src="path/to/your/product_image_2.jpg"
+
+              style="width: 100%; margin-bottom: 15px"
+
+            />
+
+            <div class="product-enquiry-section">
+
+              <div class="product-price"></div>
+
+              <div>
+
+                <a
+
+                  class="product-enquiry-btn product-download-button"
+
+                  data-productname="CLICK TO WHATSAPP :"
+
+                  data-productimage="path/to/your/product_image_2.jpg"
+
+                >
+
+                  <span id="download-label">
+
+                    <i class="fa fa-download"></i>
+
+                  </span>
+
+                  <span id="downloading">...</span>
+
+                </a>
+
+                <a
+
+                  href="https://wa.me/911234567890?text=Hi, I am interested in your product/service: CLICK TO WHATSAPP :. Please provide more details."
+
+                  target="blank"
+
+                  class="product-enquiry-btn"
+
+                  >Enquiry</a
+
+                >
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="product-card card">
+
+            <h3 class="card-title">CLICK TO EMAIL :</h3>
+
+            <div class="product-description">
+
+              <p>
+
+                One Click and your customer will be able to send you an email
+
+                directly.
+
+              </p>
+
+            </div>
+
+            <img
+
+              class="product-image"
+
+              alt="CLICK TO EMAIL :"
+
+              src="path/to/your/product_image_3.jpg"
+
+              style="width: 100%; margin-bottom: 15px"
+
+            />
+
+            <div class="product-enquiry-section">
+
+              <div class="product-price"></div>
+
+              <div>
+
+                <a
+
+                  class="product-enquiry-btn product-download-button"
+
+                  data-productname="CLICK TO EMAIL :"
+
+                  data-productimage="path/to/your/product_image_3.jpg"
+
+                >
+
+                  <span id="download-label">
+
+                    <i class="fa fa-download"></i>
+
+                  </span>
+
+                  <span id="downloading">...</span>
+
+                </a>
+
+                <a
+
+                  href="https://wa.me/911234567890?text=Hi, I am interested in your product/service: CLICK TO EMAIL :. Please provide more details."
+
+                  target="blank"
+
+                  class="product-enquiry-btn"
+
+                  >Enquiry</a
+
+                >
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="product-card card">
+
+            <h3 class="card-title">CLICK TO NAVIGATE :</h3>
+
+            <div class="product-description">
+
+              <p>
+
+                Using our digital visiting Card, people can navigate to your
+
+                store with Google Maps.
+
+              </p>
+
+            </div>
+
+            <img
+
+              class="product-image"
+
+              alt="CLICK TO NAVIGATE :"
+
+              src="path/to/your/product_image_4.jpg"
+
+              style="width: 100%; margin-bottom: 15px"
+
+            />
+
+            <div class="product-enquiry-section">
+
+              <div class="product-price"></div>
+
+              <div>
+
+                <a
+
+                  class="product-enquiry-btn product-download-button"
+
+                  data-productname="CLICK TO NAVIGATE :"
+
+                  data-productimage="path/to/your/product_image_4.jpg"
+
+                >
+
+                  <span id="download-label">
+
+                    <i class="fa fa-download"></i>
+
+                  </span>
+
+                  <span id="downloading">...</span>
+
+                </a>
+
+                <a
+
+                  href="https://wa.me/911234567890?text=Hi, I am interested in your product/service: CLICK TO NAVIGATE :. Please provide more details."
+
+                  target="blank"
+
+                  class="product-enquiry-btn"
+
+                  >Enquiry</a
+
+                >
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="product-card card">
+
+            <h3 class="card-title">ADD TO CONTACTS :</h3>
+
+            <div class="product-description">
+
+              <p>
+
+                People can save all your contact details in their phone address
+
+                book.
+
+              </p>
+
+            </div>
+
+            <img
+
+              class="product-image"
+
+              alt="ADD TO CONTACTS :"
+
+              src="path/to/your/product_image_5.jpg"
+
+              style="width: 100%; margin-bottom: 15px"
+
+            />
+
+            <div class="product-enquiry-section">
+
+              <div class="product-price"></div>
+
+              <div>
+
+                <a
+
+                  class="product-enquiry-btn product-download-button"
+
+                  data-productname="ADD TO CONTACTS :"
+
+                  data-productimage="path/to/your/product_image_5.jpg"
+
+                >
+
+                  <span id="download-label">
+
+                    <i class="fa fa-download"></i>
+
+                  </span>
+
+                  <span id="downloading">...</span>
+
+                </a>
+
+                <a
+
+                  href="https://wa.me/911234567890?text=Hi, I am interested in your product/service: ADD TO CONTACTS :. Please provide more details."
+
+                  target="blank"
+
+                  class="product-enquiry-btn"
+
+                  >Enquiry</a
+
+                >
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="product-card card">
+
+            <h3 class="card-title">WEBSITE & SOCIAL MEDIA LINKS :</h3>
+
+            <div class="product-description">
+
+              <p>
+
+                Customer can visit your website and social sites with a single
+
+                click through digital vcard.
+
+              </p>
+
+            </div>
+
+            <img
+
+              class="product-image"
+
+              alt="WEBSITE & SOCIAL MEDIA LINKS :"
+
+              src="path/to/your/product_image_6.jpg"
+
+              style="width: 100%; margin-bottom: 15px"
+
+            />
+
+            <div class="product-enquiry-section">
+
+              <div class="product-price"></div>
+
+              <div>
+
+                <a
+
+                  class="product-enquiry-btn product-download-button"
+
+                  data-productname="WEBSITE & SOCIAL MEDIA LINKS :"
+
+                  data-productimage="path/to/your/product_image_6.jpg"
+
+                >
+
+                  <span id="download-label">
+
+                    <i class="fa fa-download"></i>
+
+                  </span>
+
+                  <span id="downloading">...</span>
+
+                </a>
+
+                <a
+
+                  href="https://wa.me/911234567890?text=Hi, I am interested in your product/service: WEBSITE & SOCIAL MEDIA LINKS :. Please provide more details."
+
+                  target="blank"
+
+                  class="product-enquiry-btn"
+
+                  >Enquiry</a
+
+                >
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="product-card card">
+
+            <h3 class="card-title">SHARE UNLIMITED :</h3>
+
+            <div class="product-description">
+
+              <p>
+
+                You can share your digital visiting card unlimited times to
+
+                anyone using social media.
+
+              </p>
+
+            </div>
+
+            <img
+
+              class="product-image"
+
+              alt="SHARE UNLIMITED :"
+
+              src="path/to/your/product_image_7.jpg"
+
+              style="width: 100%; margin-bottom: 15px"
+
+            />
+
+            <div class="product-enquiry-section">
+
+              <div class="product-price"></div>
+
+              <div>
+
+                <a
+
+                  class="product-enquiry-btn product-download-button"
+
+                  data-productname="SHARE UNLIMITED :"
+
+                  data-productimage="path/to/your/product_image_7.jpg"
+
+                >
+
+                  <span id="download-label">
+
+                    <i class="fa fa-download"></i>
+
+                  </span>
+
+                  <span id="downloading">...</span>
+
+                </a>
+
+                <a
+
+                  href="https://wa.me/911234567890?text=Hi, I am interested in your product/service: SHARE UNLIMITED :. Please provide more details."
+
+                  target="blank"
+
+                  class="product-enquiry-btn"
+
+                  >Enquiry</a
+
+                >
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="product-card card">
+
+            <h3 class="card-title">EASY TO UPDATE :</h3>
+
+            <div class="product-description">
+
+              <p>
+
+                You can update your details as and when you want to change
+
+                unlimited times.
+
+              </p>
+
+            </div>
+
+            <img
+
+              class="product-image"
+
+              alt="EASY TO UPDATE :"
+
+              src="path/to/your/product_image_8.jpg"
+
+              style="width: 100%; margin-bottom: 15px"
+
+            />
+
+            <div class="product-enquiry-section">
+
+              <div class="product-price"></div>
+
+              <div>
+
+                <a
+
+                  class="product-enquiry-btn product-download-button"
+
+                  data-productname="EASY TO UPDATE :"
+
+                  data-productimage="path/to/your/product_image_8.jpg"
+
+                >
+
+                  <span id="download-label">
+
+                    <i class="fa fa-download"></i>
+
+                  </span>
+
+                  <span id="downloading">...</span>
+
+                </a>
+
+                <a
+
+                  href="https://wa.me/911234567890?text=Hi, I am interested in your product/service: EASY TO UPDATE :. Please provide more details."
+
+                  target="blank"
+
+                  class="product-enquiry-btn"
+
+                  >Enquiry</a
+
+                >
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="product-card card">
+
+            <h3 class="card-title">Product Catalogue</h3>
+
+            <div class="product-description">
+
+              <p>
+
+                Easily to list your featured products/services with image and
+
+                detail description.(75 products)
+
+              </p>
+
+            </div>
+
+            <img
+
+              class="product-image"
+
+              alt="Product Catalogue"
+
+              src="path/to/your/product_image_9.jpg"
+
+              style="width: 100%; margin-bottom: 15px"
+
+            />
+
+            <div class="product-enquiry-section">
+
+              <div class="product-price"></div>
+
+              <div>
+
+                <a
+
+                  class="product-enquiry-btn product-download-button"
+
+                  data-productname="Product Catalogue"
+
+                  data-productimage="path/to/your/product_image_9.jpg"
+
+                >
+
+                  <span id="download-label">
+
+                    <i class="fa fa-download"></i>
+
+                  </span>
+
+                  <span id="downloading">...</span>
+
+                </a>
+
+                <a
+
+                  href="https://wa.me/911234567890?text=Hi, I am interested in your product/service: Product Catalogue. Please provide more details."
+
+                  target="blank"
+
+                  class="product-enquiry-btn"
+
+                  >Enquiry</a
+
+                >
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="product-card card">
+
+            <h3 class="card-title">PHOTO GALLERY :</h3>
+
+            <div class="product-description">
+
+              <h3>
+
+                Showcase your business related images and products to your
+
+                customers (20 photo).
+
+              </h3>
+
+            </div>
+
+            <img
+
+              class="product-image"
+
+              alt="PHOTO GALLERY :"
+
+              src="path/to/your/product_image_10.jpg"
+
+              style="width: 100%; margin-bottom: 15px"
+
+            />
+
+            <div class="product-enquiry-section">
+
+              <div class="product-price"></div>
+
+              <div>
+
+                <a
+
+                  class="product-enquiry-btn product-download-button"
+
+                  data-productname="PHOTO GALLERY :"
+
+                  data-productimage="path/to/your/product_image_10.jpg"
+
+                >
+
+                  <span id="download-label">
+
+                    <i class="fa fa-download"></i>
+
+                  </span>
+
+                  <span id="downloading">...</span>
+
+                </a>
+
+                <a
+
+                  href="https://wa.me/911234567890?text=Hi, I am interested in your product/service: PHOTO GALLERY :. Please provide more details."
+
+                  target="blank"
+
+                  class="product-enquiry-btn"
+
+                  >Enquiry</a
+
+                >
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="product-card card">
+
+            <h3 class="card-title">Youtube Video Gallery :</h3>
+
+            <div class="product-description">
+
+              <p>
+
+                Impress your customer by showing them your business related
+
+                youtube videos.
+
+              </p>
+
+            </div>
+
+            <img
+
+              class="product-image"
+
+              alt="Youtube Video Gallery :"
+
+              src="path/to/your/product_image_11.jpg"
+
+              style="width: 100%; margin-bottom: 15px"
+
+            />
+
+            <div class="product-enquiry-section">
+
+              <div class="product-price"></div>
+
+              <div>
+
+                <a
+
+                  class="product-enquiry-btn product-download-button"
+
+                  data-productname="Youtube Video Gallery :"
+
+                  data-productimage="path/to/your/product_image_11.jpg"
+
+                >
+
+                  <span id="download-label">
+
+                    <i class="fa fa-download"></i>
+
+                  </span>
+
+                  <span id="downloading">...</span>
+
+                </a>
+
+                <a
+
+                  href="https://wa.me/911234567890?text=Hi, I am interested in your product/service: Youtube Video Gallery :. Please provide more details."
+
+                  target="blank"
+
+                  class="product-enquiry-btn"
+
+                  >Enquiry</a
+
+                >
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="product-card card">
+
+            <h3 class="card-title">PAYMENT SECTION :</h3>
+
+            <div class="product-description">
+
+              <p>
+
+                Display payment details to your customers, Like: Paytm, Phonepe,
+
+                Google Pay, Bank Account (Including QR code Images)
+
+              </p>
+
+            </div>
+
+            <img
+
+              class="product-image"
+
+              alt="PAYMENT SECTION :"
+
+              src="path/to/your/product_image_12.jpg"
+
+              style="width: 100%; margin-bottom: 15px"
+
+            />
+
+            <div class="product-enquiry-section">
+
+              <div class="product-price"></div>
+
+              <div>
+
+                <a
+
+                  class="product-enquiry-btn product-download-button"
+
+                  data-productname="PAYMENT SECTION :"
+
+                  data-productimage="path/to/your/product_image_12.jpg"
+
+                >
+
+                  <span id="download-label">
+
+                    <i class="fa fa-download"></i>
+
+                  </span>
+
+                  <span id="downloading">...</span>
+
+                </a>
+
+                <a
+
+                  href="https://wa.me/911234567890?text=Hi, I am interested in your product/service: PAYMENT SECTION :. Please provide more details."
+
+                  target="blank"
+
+                  class="product-enquiry-btn"
+
+                  >Enquiry</a
+
+                >
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="product-card card">
+
+            <h3 class="card-title">ENQUIRY FORM :</h3>
+
+            <div class="product-description">
+
+              <p>
+
+                Our Card can help to capture leads with enquiry form. You will
+
+                get Email notification for each enquiry.
+
+              </p>
+
+            </div>
+
+            <img
+
+              class="product-image"
+
+              alt="ENQUIRY FORM :"
+
+              src="path/to/your/product_image_13.jpeg"
+
+              style="width: 100%; margin-bottom: 15px"
+
+            />
+
+            <div class="product-enquiry-section">
+
+              <div class="product-price"></div>
+
+              <div>
+
+                <a
+
+                  class="product-enquiry-btn product-download-button"
+
+                  data-productname="ENQUIRY FORM :"
+
+                  data-productimage="path/to/your/product_image_13.jpeg"
+
+                >
+
+                  <span id="download-label">
+
+                    <i class="fa fa-download"></i>
+
+                  </span>
+
+                  <span id="downloading">...</span>
+
+                </a>
+
+                <a
+
+                  href="https://wa.me/911234567890?text=Hi, I am interested in your product/service: ENQUIRY FORM :. Please provide more details."
+
+                  target="blank"
+
+                  class="product-enquiry-btn"
+
+                  >Enquiry</a
+
+                >
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="product-card card">
+
+            <h3 class="card-title">VISITORS COUNT :</h3>
+
+            <div class="product-description">
+
+              <p>
+
+                Card shows the unique visitor count who viewed your card, Isn't
+
+                it cool!!
+
+              </p>
+
+            </div>
+
+            <img
+
+              class="product-image"
+
+              alt="VISITORS COUNT :"
+
+              src="path/to/your/product_image_14.jpg"
+
+              style="width: 100%; margin-bottom: 15px"
+
+            />
+
+            <div class="product-enquiry-section">
+
+              <div class="product-price"></div>
+
+              <div>
+
+                <a
+
+                  class="product-enquiry-btn product-download-button"
+
+                  data-productname="VISITORS COUNT :"
+
+                  data-productimage="path/to/your/product_image_14.jpg"
+
+                >
+
+                  <span id="download-label">
+
+                    <i class="fa fa-download"></i>
+
+                  </span>
+
+                  <span id="downloading">...</span>
+
+                </a>
+
+                <a
+
+                  href="https://wa.me/911234567890?text=Hi, I am interested in your product/service: VISITORS COUNT :. Please provide more details."
+
+                  target="blank"
+
+                  class="product-enquiry-btn"
+
+                  >Enquiry</a
+
+                >
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="product-card card">
+
+            <h3 class="card-title">REVIEWS & RATINGS :</h3>
+
+            <div class="product-description">
+
+              <p>
+
+                Anyone can give feedback about your organization and rate out of
+
+                5 stars and others can see on the cards.
+
+              </p>
+
+            </div>
+
+            <div class="product-slideshow-container">
+
+              <div class="product-slide fade">
+
+                <img
+
+                  src="path/to/your/product_image_15.jpg"
+
+                  style="width: 100%"
+
+                  alt="Product 1"
+
+                />
+
+              </div>
+
+              <div class="product-slide fade">
+
+                <img
+
+                  src="path/to/your/product_image_16.jpg"
+
+                  style="width: 100%"
+
+                  alt="Product 2"
+
+                />
+
+              </div>
+
+              <a class="product-slide-previous" id="product-slide-previous"
+
+                >❮</a
+
+              >
+
+              <a class="product-slide-next" id="product-slide-next">❯</a>
+
+            </div>
+
+            <div class="product-enquiry-section">
+
+              <div class="product-price"></div>
+
+              <div>
+
+                <a
+
+                  class="product-enquiry-btn product-download-button"
+
+                  data-productname="REVIEWS & RATINGS :"
+
+                  data-productimage="path/to/your/product_image_15.jpg,path/to/your/product_image_16.jpg"
+
+                >
+
+                  <span id="download-label">
+
+                    <i class="fa fa-download"></i>
+
+                  </span>
+
+                  <span id="downloading">...</span>
+
+                </a>
+
+                <a
+
+                  href="https://wa.me/911234567890?text=Hi, I am interested in your product/service: REVIEWS & RATINGS :. Please provide more details."
+
+                  target="blank"
+
+                  class="product-enquiry-btn"
+
+                  >Enquiry</a
+
+                >
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="section-container" id="payment-options-section">
+
+      <div class="section-content-wrapper">
+
+        <h2 class="section-header">Payment</h2>
+
+        <div>
+
+          <table class="about-us-table">
+
+            <tbody>
+
+              <tr>
+
+                <td class="table-row-label">
+
+                  <h3 class="table-row-label-text">Phone Pe Number</h3>
+
+                  <b class="table-row-label-separator">:</b>
+
+                </td>
+
+                <td class="table-row-value">+91 - 1234567890</td>
+
+              </tr>
+
+              <tr>
+
+                <td class="table-row-label">
+
+                  <h3 class="table-row-label-text">Google Pay Number</h3>
+
+                  <b class="table-row-label-separator">:</b>
+
+                </td>
+
+                <td class="table-row-value">+91 - 1234567890</td>
+
+              </tr>
+
+            </tbody>
+
+          </table>
+
+          <h3>Account Details:</h3>
+
+          <table class="about-us-table">
+
+            <tbody>
+
+              <tr>
+
+                <td class="table-row-label">
+
+                  <h3 class="table-row-label-text">Bank Name</h3>
+
+                  <b class="table-row-label-separator">:</b>
+
+                </td>
+
+                <td class="table-row-value">Your Bank Name</td>
+
+              </tr>
+
+              <tr>
+
+                <td class="table-row-label">
+
+                  <h3 class="table-row-label-text">IFSC code</h3>
+
+                  <b class="table-row-label-separator">:</b>
+
+                </td>
+
+                <td class="table-row-value">YOURIFSC000</td>
+
+              </tr>
+
+              <tr>
+
+                <td class="table-row-label">
+
+                  <h3 class="table-row-label-text">Account Name</h3>
+
+                  <b class="table-row-label-separator">:</b>
+
+                </td>
+
+                <td class="table-row-value">Your Account Name</td>
+
+              </tr>
+
+              <tr>
+
+                <td class="table-row-label">
+
+                  <h3 class="table-row-label-text">Account Number</h3>
+
+                  <b class="table-row-label-separator">:</b>
+
+                </td>
+
+                <td class="table-row-value">1234567890123456</td>
+
+              </tr>
+
+              <tr>
+
+                <td class="table-row-label">
+
+                  <h3 class="table-row-label-text">Account Type</h3>
+
+                  <b class="table-row-label-separator">:</b>
+
+                </td>
+
+                <td class="table-row-value">SAVING/CURRENT ACCOUNT</td>
+
+              </tr>
+
+            </tbody>
+
+          </table>
+
+          <h3>QR codes:</h3>
+
+          <div class="qr-codes-container">
+
+            <div class="po-qr-code-wrapper">
+
+              <h4 style="margin-bottom: 10px">UPI Pay</h4>
+
+              <img src="path/to/your/bhim_pay_qr.png" class="qr-image" />
+
+            </div>
+
+            <div class="po-qr-code-wrapper">
+
+              <h4 style="margin-bottom: 10px">Phone Pe</h4>
+
+              <img src="path/to/your/phonepe_qr.png" class="qr-image" />
+
+            </div>
+
+            <div class="po-qr-code-wrapper">
+
+              <h4 style="margin-bottom: 10px">Google Pay</h4>
+
+              <img src="path/to/your/google_pay_qr.png" class="qr-image" />
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="section-container" id="gallery-section">
+
+      <div class="section-content-wrapper">
+
+        <h2 class="section-header">Gallery</h2>
+
+        <div class="images-container">
+
+          <div class="image-wrapper">
+
+            <img
+
+              class="gallery-image"
+
+              alt="Gallery"
+
+              src="path/to/your/gallery_image_1.jpg"
+
+              style="width: 100%"
+
+            />
+
+          </div>
+
+          <div class="image-wrapper">
+
+            <img
+
+              class="gallery-image"
+
+              alt="Gallery"
+
+              src="path/to/your/gallery_image_2.jpg"
+
+              style="width: 100%"
+
+            />
+
+          </div>
+
+          <div class="image-wrapper">
+
+            <img
+
+              class="gallery-image"
+
+              alt="Gallery"
+
+              src="path/to/your/gallery_image_3.jpg"
+
+              style="width: 100%"
+
+            />
+
+          </div>
+
+          <div class="image-wrapper">
+
+            <img
+
+              class="gallery-image"
+
+              alt="Gallery"
+
+              src="path/to/your/gallery_image_4.jpg"
+
+              style="width: 100%"
+
+            />
+
+          </div>
+
+          <div class="image-wrapper">
+
+            <img
+
+              class="gallery-image"
+
+              alt="Gallery"
+
+              src="path/to/your/gallery_image_5.jpg"
+
+              style="width: 100%"
+
+            />
+
+          </div>
+
+          <div class="image-wrapper">
+
+            <img
+
+              class="gallery-image"
+
+              alt="Gallery"
+
+              src="path/to/your/gallery_image_6.jpg"
+
+              style="width: 100%"
+
+            />
+
+          </div>
+
+          <div class="image-wrapper">
+
+            <img
+
+              class="gallery-image"
+
+              alt="Gallery"
+
+              src="path/to/your/gallery_image_7.jpg"
+
+              style="width: 100%"
+
+            />
+
+          </div>
+
+          <div class="image-wrapper">
+
+            <img
+
+              class="gallery-image"
+
+              alt="Gallery"
+
+              src="path/to/your/gallery_image_8.jpg"
+
+              style="width: 100%"
+
+            />
+
+          </div>
+
+          <div class="image-wrapper">
+
+            <img
+
+              class="gallery-image"
+
+              alt="Gallery"
+
+              src="path/to/your/gallery_image_9.jpg"
+
+              style="width: 100%"
+
+            />
+
+          </div>
+
+          <div class="image-wrapper">
+
+            <img
+
+              class="gallery-image"
+
+              alt="Gallery"
+
+              src="path/to/your/gallery_image_10.jpg"
+
+              style="width: 100%"
+
+            />
+
+          </div>
+
+          <div class="image-wrapper">
+
+            <img
+
+              class="gallery-image"
+
+              alt="Gallery"
+
+              src="path/to/your/gallery_image_11.jpg"
+
+              style="width: 100%"
+
+            />
+
+          </div>
+
+          <div class="image-wrapper">
+
+            <img
+
+              class="gallery-image"
+
+              alt="Gallery"
+
+              src="path/to/your/gallery_image_12.jpg"
+
+              style="width: 100%"
+
+            />
+
+          </div>
+
+          <div class="image-wrapper">
+
+            <img
+
+              class="gallery-image"
+
+              alt="Gallery"
+
+              src="path/to/your/gallery_image_13.jpg"
+
+              style="width: 100%"
+
+            />
+
+          </div>
+
+          <div class="image-wrapper">
+
+            <img
+
+              class="gallery-image"
+
+              alt="Gallery"
+
+              src="path/to/your/gallery_image_14.png"
+
+              style="width: 100%"
+
+            />
+
+          </div>
+
+          <div class="image-wrapper">
+
+            <img
+
+              class="gallery-image"
+
+              alt="Gallery"
+
+              src="path/to/your/gallery_image_15.jpeg"
+
+              style="width: 100%"
+
+            />
+
+          </div>
+
+          <div class="image-wrapper">
+
+            <img
+
+              class="gallery-image"
+
+              alt="Gallery"
+
+              src="path/to/your/gallery_image_16.jpg"
+
+              style="width: 100%"
+
+            />
+
+          </div>
+
+          <div class="image-wrapper">
+
+            <img
+
+              class="gallery-image"
+
+              alt="Gallery"
+
+              src="path/to/your/gallery_image_17.jpeg"
+
+              style="width: 100%"
+
+            />
+
+          </div>
+
+          <div class="image-wrapper">
+
+            <img
+
+              class="gallery-image"
+
+              alt="Gallery"
+
+              src="path/to/your/gallery_image_18.jpeg"
+
+              style="width: 100%"
+
+            />
+
+          </div>
+
+          <div class="image-wrapper">
+
+            <img
+
+              class="gallery-image"
+
+              alt="Gallery"
+
+              src="path/to/your/gallery_image_19.jpeg"
+
+              style="width: 100%"
+
+            />
+
+          </div>
+
+          <div class="image-wrapper">
+
+            <img
+
+              class="gallery-image"
+
+              alt="Gallery"
+
+              src="path/to/your/gallery_image_20.jpeg"
+
+              style="width: 100%"
+
+            />
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="section-container" id="videos-section">
+
+      <div class="section-content-wrapper">
+
+        <h2 class="section-header">Videos</h2>
+
+        <div>
+
+          <div class="card" style="padding: 10px">
+
+            <iframe
+
+              src="//www.youtube.com/embed/your_video_id_1"
+
+              frameborder="0"
+
+              allowfullscreen=""
+
+              style="width: 100%"
+
+              title="youtube-video-0"
+
+            ></iframe>
+
+          </div>
+
+          <div class="card" style="padding: 10px">
+
+            <iframe
+
+              src="//www.youtube.com/embed/your_video_id_2"
+
+              frameborder="0"
+
+              allowfullscreen=""
+
+              style="width: 100%"
+
+              title="youtube-video-1"
+
+            ></iframe>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="section-container" id="feedback-section">
+
+      <div class="section-content-wrapper">
+
+        <h2 class="section-header">Feedback</h2>
+
+        <div class="feedback-list" id="feedback-list"></div>
+
+        <div class="feedback-button-wrapper">
+
+          <input
+
+            type="button"
+
+            value="Load more feedbacks"
+
+            id="load-more-feedback-btn"
+
+          />
+
+        </div>
+
+        <form class="feedback-form card" novalidate="">
+
+          <div class="feedback-form-heading">Give Feedback</div>
+
+          <select class="star-rating" id="rating" name="rating">
+
+            <option value="">Select a rating</option>
+
+            <option value="5">Excellent</option>
+
+            <option value="4">Very Good</option>
+
+            <option value="3">Average</option>
+
+            <option value="2">Poor</option>
+
+            <option value="1">Terrible</option>
+
+          </select>
+
+          <input
+
+            type="text"
+
+            name="feedbackName"
+
+            id="feedbackName"
+
+            placeholder="Enter Full Name"
+
+          />
+
+          <textarea
+
+            name="feedback"
+
+            id="feedback"
+
+            placeholder="Enter your feedback"
+
+          ></textarea>
+
+          <input
+
+            type="button"
+
+            value="Give Feedback"
+
+            id="give-feedback-button"
+
+          />
+
+          <div class="snackbar" id="success-feedback-snackbar">
+
+            Success: Feedback Given Successfully.
+
+          </div>
+
+        </form>
+
+      </div>
+
+    </div>
+
+    <div class="section-container" id="enquiry-section">
+
+      <div class="section-content-wrapper">
+
+        <h2 class="section-header">Enquiry Form</h2>
+
+        <form class="enquiry-form" novalidate="">
+
+          <input
+
+            type="text"
+
+            name="enquiryName"
+
+            id="enquiryName"
+
+            placeholder="Enter Full Name"
+
+          />
+
+          <br />
+
+          <div class="flex">
+
+            <div class="enquiry-phoneNumber">
+
+              <input
+
+                type="text"
+
+                name="phoneNumber"
+
+                id="phoneNumber"
+
+                placeholder="Enter Phone Number"
+
+              />
+
+              <br />
+
+            </div>
+
+            <div class="enquiry-email">
+
+              <input
+
+                type="text"
+
+                name="email"
+
+                id="email"
+
+                placeholder="Enter Email"
+
+              />
+
+              <br />
+
+            </div>
+
+          </div>
+
+          <textarea
+
+            name="message"
+
+            id="message"
+
+            placeholder="Enter Message"
+
+          ></textarea>
+
+          <br />
+
+          <input
+
+            type="button"
+
+            id="send-enquiry-button"
+
+            value="Send"
+
+            data-mailtosend="your.email@example.com"
+
+          />
+
+        </form>
+
+      </div>
+
+    </div>
+
+    <div class="section-container" id="share-section">
+
+      <div class="section-content-wrapper">
+
+        <h2 class="section-header">Share</h2>
+
+        <div>
+
+          <div class="copy-link-wrapper" id="copy-link-button">
+
+            <div class="card-link">https://yourwebsite.com/</div>
+
+            <div class="copy-link-icon-button">
+
+              <i class="fas fa-copy"></i>
+
+            </div>
+
+          </div>
+
+          <div class="snackbar" id="copy-link-snackbar">
+
+            Profile link copied.
+
+          </div>
+
+          <div class="qr-code-wrapper">
+
+            <div class="qr-code-label">Scan below QR to open profile:</div>
+
+            <img
+
+              src="path/to/your/qr_code.png"
+
+              class="qr-code-image"
+
+              crossorigin="anonymous"
+
+              alt="qr-code"
+
+            />
+
+          </div>
+
+          <div class="shadow-buttons">
+
+            <a
+
+              class="shadow-button"
+
+              id="share-button"
+
+              data-title="Your Company Name"
+
+            >
+
+              <i class="fas fa-share-alt shadow-button-icon"></i>
+
+              Share
+
+            </a>
+
+            <a
+
+              class="shadow-button"
+
+              id="save-qr-button"
+
+              data-title="Your Company Name"
+
+            >
+
+              <i class="fas fa-download shadow-button-icon"></i>
+
+              Save QR
+
+            </a>
+
+          </div>
+
+          <div class="p-30"></div>
+
+          <div class="whatsapp-share-container">
+
+            <div class="whatsapp-input-label">
+
+              Share profile to any whatsapp number:
+
+            </div>
+
+            <div class="whatsapp-input">
+
+              <div class="input-wrapper">
+
+                <label>+91</label>
+
+                <input
+
+                  id="whatsapp-input"
+
+                  class="input"
+
+                  placeholder="Enter mobile number"
+
+                  maxlength="10"
+
+                />
+
+              </div>
+
+              <a
+
+                id="share-on-whatsapp-button"
+
+                class="whatsapp-button"
+
+                target="_blank"
+
+                href="#"
+
+                rel="noreferrer"
+
+              >
+
+                <i class="fab fa-whatsapp"></i>
+
+                Share
+
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="copyright-wrapper">
+
+      <div class="copyright-wrapper-inner">
+
+        © 2025
+
+        <a href="https://yourwebsite.com/" target="_blank" rel="noreferrer">
+
+          <b>yourwebsite.com</b>
+
+        </a>
+
+      </div>
+
+    </div>
+
+    <div class="footer">
+
+      <ul class="footer-menu">
+
+        <li>
+
+          <a class="footer-menu-link" href="#home-section">
+
+            <i class="footer-menu-icon fas fa-home"></i>
+
+            <div class="footer-menu-text">HOME</div>
+
+          </a>
+
+        </li>
+
+        <li>
+
+          <a class="footer-menu-link" href="#about-us-section">
+
+            <i class="footer-menu-icon fas fa-briefcase"></i>
+
+            <div class="footer-menu-text">ABOUT US</div>
+
+          </a>
+
+        </li>
+
+        <li>
+
+          <a class="footer-menu-link" href="#products-services-section">
+
+            <i class="footer-menu-icon fas fa-box-open"></i>
+
+            <div class="footer-menu-text">PRODUCTS</div>
+
+          </a>
+
+        </li>
+
+        <li>
+
+          <a class="footer-menu-link" href="#payment-options-section">
+
+            <i class="footer-menu-icon fas fa-money-bill-alt"></i>
+
+            <div class="footer-menu-text">PAYMENT</div>
+
+          </a>
+
+        </li>
+
+        <li>
+
+          <a class="footer-menu-link" href="#gallery-section">
+
+            <i class="footer-menu-icon fas fa-file-image"></i>
+
+            <div class="footer-menu-text">GALLERY</div>
+
+          </a>
+
+        </li>
+
+        <li>
+
+          <a class="footer-menu-link" href="#videos-section">
+
+            <i class="footer-menu-icon fas fa-video"></i>
+
+            <div class="footer-menu-text">VIDEOS</div>
+
+          </a>
+
+        </li>
+
+        <li>
+
+          <a class="footer-menu-link" href="#feedback-section">
+
+            <i class="footer-menu-icon fas fa-star"></i>
+
+            <div class="footer-menu-text">FEEDBACK</div>
+
+          </a>
+
+        </li>
+
+        <li>
+
+          <a class="footer-menu-link" href="#enquiry-section">
+
+            <i class="footer-menu-icon fas fa-comment-alt"></i>
+
+            <div class="footer-menu-text">ENQUIRY</div>
+
+          </a>
+
+        </li>
+
+        <li>
+
+          <a class="footer-menu-link" href="#share-section">
+
+            <i class="footer-menu-icon fas fa-share"></i>
+
+            <div class="footer-menu-text">SHARE</div>
+
+          </a>
+
+        </li>
+
+      </ul>
+
+    </div>
+
+    <div id="imageModal" class="modal">
+
+      <span class="close" id="imageModalClose">×</span>
+
+      <img class="modal-content fadeIn" id="img01" alt="Modal" />
+
+      <div id="caption"></div>
+
+    </div>
+
+    <div id="shareModal" class="modal share-modal">
+
+      <div class="share-form fadeInUpBig">
+
+        <div class="share-form-header">
+
+          <h3 class="share-form-header-text">Share Profile</h3>
+
+          <span class="close" id="shareModalClose">×</span>
+
+        </div>
+
+        <div class="share-form-buttons-container">
+
+          <p>Share my Digital vCard in your network.</p>
+
+          <div class="share-buttons-heading">
+
+            <img
+
+              src="../templates/template1/tild-arrow.svg"
+
+              class="share-buttons-arrow"
+
+              alt="tild arrow"
+
+            />
+
+            <div class="share-buttons-heading-text">Share my Digital vCard</div>
+
+          </div>
+
+          <ul class="share-buttons">
+
+            <li class="share-button">
+
+              <a
+
+                href="#"
+
+                target="_blank"
+
+                id="direct-whatsapp-share-button"
+
+                data-whatsappnumber="911234567890"
+
+                rel="noreferrer"
+
+              >
+
+                <i class="share-button-whatsapp fab fa-whatsapp"></i>
+
+              </a>
+
+            </li>
+
+            <li class="share-button">
+
+              <a
+
+                target="_blank"
+
+                href="sms:?body=https://yourwebsite.com/"
+
+                rel="noreferrer"
+
+              >
+
+                <i class="share-button-sms fas fa-comment-dots"></i>
+
+              </a>
+
+            </li>
+
+            <li class="share-button">
+
+              <a
+
+                target="_blank"
+
+                href="https://www.facebook.com/sharer/sharer.php?u=https://yourwebsite.com/&src=sdkpreparse"
+
+                class="fb-xfbml-parse-ignore"
+
+                rel="noreferrer"
+
+              >
+
+                <i class="share-button-facebook fab fa-facebook-f"></i>
+
+              </a>
+
+            </li>
+
+            <li class="share-button">
+
+              <a
+
+                target="_blank"
+
+                href="https://twitter.com/intent/tweet?text=https://yourwebsite.com/"
+
+                data-size="large"
+
+                rel="noreferrer"
+
+              >
+
+                <i class="share-button-twitter fab fa-twitter"></i>
+
+              </a>
+
+            </li>
+
+            <li class="share-button">
+
+              <a
+
+                target="_blank"
+
+                href="http://pinterest.com/pin/create/link/?url=https://yourwebsite.com/"
+
+                rel="noreferrer"
+
+              >
+
+                <i class="share-button-pinterest fab fa-pinterest-p"></i>
+
+              </a>
+
+            </li>
+
+            <li class="share-button">
+
+              <a
+
+                target="_blank"
+
+                href="mailto:?subject=Digital Card&body=Check out this digital card https://yourwebsite.com/."
+
+                rel="noreferrer"
+
+              >
+
+                <i class="share-button-mail fas fa-envelope"></i>
+
+              </a>
+
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/js/intlTelInput.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/js/utils.min.js"></script>
+
+    <script src="../templates/common/js/star-rating.js"></script>
+
+    <script src="../templates/common/js/script.13.js"></script>
+
+
+
+    <script>
+
+      document.addEventListener("DOMContentLoaded", function () {
+
+        // Select all footer menu links
+
+        const scrollLinks = document.querySelectorAll("a.footer-menu-link");
+
+
+
+        for (const link of scrollLinks) {
+
+          link.addEventListener("click", function (e) {
+
+            // Prevent the default jump and the old script's redirect
+
+            e.preventDefault();
+
+            e.stopPropagation();
+
+
+
+            const targetId = this.getAttribute("href");
+
+            const targetElement = document.querySelector(targetId);
+
+
+
+            if (targetElement) {
+
+              // Scroll smoothly to the target section
+
+              targetElement.scrollIntoView({
+
+                behavior: "smooth",
+
+                block: "start",
+
+              });
+
+            }
+
+          });
+
+        }
+
+      });
+
+    </script>
+
+  </body>
+
+</html>
+
+
+
+
+
+in this place so many place holder ill give informatin based on the given info fill the place holders
+
+
+
+company name : AR Dream Construction
+
+Your name : Anantha Abbas
+
+title : engineer 
+
+category : Construction 
+
+email : 
+
+number : 86681 12027
+
+insta: https://www.instagram.com/ardreamconstruction/
+
+facebook: https://www.facebook.com/people/AR-Dream-Construction/61577306378249/#
