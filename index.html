@@ -17,8 +17,8 @@
       integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
       crossorigin="anonymous"
     />
-    <link href="./common/css/common.7.css" rel="stylesheet" />
-    <link href="./templates/template1/t1-style.7.css" rel="stylesheet" />
+    <link href="templates/common/css/common.7.css" rel="stylesheet" />
+    <link href="templates/template1/t1-style.7.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/css/intlTelInput.min.css"
@@ -45,8 +45,8 @@
       defer=""
       src="https://cdn.jsdelivr.net/npm/fabric@5.2.1/dist/fabric.min.js"
     ></script>
-    <script defer="" src="./templates/common/js/webfont.js"></script>
-    <title>Digital Business Card</title>
+    <script defer="" src="templates/common/js/lib/webfont.js"></script>
+    <title>AR Dream Construction</title>
     <link rel="manifest" id="manifest-placeholder" />
     <div>
       <script>
@@ -76,10 +76,27 @@
           .setAttribute("href", manifestURL);
       </script>
       <script>
-        document.documentElement.style.setProperty("--theme-color", "#0085C4");
+        // Using the theme color from the new design model
+        document.documentElement.style.setProperty("--theme-color", "#2CB1BD");
         document.documentElement.style.setProperty(
           "--theme-color-light",
-          "#0085C426"
+          "#2CB1BD26"
+        );
+        document.documentElement.style.setProperty(
+          "--theme-color-100",
+          "#2CB1BD"
+        );
+        document.documentElement.style.setProperty(
+          "--theme-color-75",
+          "#2CB1BD90"
+        );
+        document.documentElement.style.setProperty(
+          "--theme-color-50",
+          "#2CB1BD80"
+        );
+        document.documentElement.style.setProperty(
+          "--theme-color-25",
+          "#2CB1BD70"
         );
         window.cardId = "your-card-id";
         const protocol = location.protocol;
@@ -97,134 +114,119 @@
   </head>
   <body>
     <div class="page-wrapper" id="home-section">
-      <div class="page-details">
-        <div class="card-content-spacer">
-          <div>
-            <div class="p-10"></div>
-          </div>
-          <div class="name-move">
-            <h1 class="firmname" style="margin-top: 25px">
-              AR Dream Construction
-            </h1>
-            <h1 class="name" style="margin-top: 15px">
-              Anantha Abbas
-              <span class="designation">(Engineer)</span>
-            </h1>
-            <div
-              style="
-                width: 60px;
-                background-color: #0085c4;
-                height: 2px;
-                margin-top: 5px;
-              "
-            ></div>
-          </div>
-          <div>
-            <div class="p-10"></div>
-            <div class="contact-buttons">
-              <a class="contact-button" href="tel:+918668112027">
-                <i class="fas fa-phone fa-flip-horizontal"></i>
-                Call
-              </a>
-              <a
-                class="contact-button"
-                target="_blank"
-                href="https://wa.me/918668112027?text=Got reference from your Digital vCard. Want to know more details."
-                rel="noreferrer"
-              >
-                <i class="fab fa-whatsapp"></i>
-                Whatsapp
-              </a>
-              <a
-                class="contact-button"
-                target="_blank"
-                href="https://www.google.com/maps/search/?api=1&query=361%2C+Deepak+Krishna+Complex%2C+Rajapalayam+Main+Road%2C+Attaimill%2C+Virudhu+Nagar+-+626+136."
-                rel="noreferrer"
-              >
-                <i class="fas fa-map-marker-alt fa-flip-horizontal"></i>
-                Direction
-              </a>
-              <a
-                class="contact-button"
-                target="_blank"
-                href="mailto:ananthabbas1984@gmail.com"
-                rel="noreferrer"
-              >
-                <i class="fas fa-envelope fa-flip-horizontal"></i>
-                Mail
-              </a>
-            </div>
-            <div
-              class="contact-action-container"
-              style="
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                margin-top: 15px;
-              "
+      <div class="upper">
+        <div class="views-label">
+          <i class="fas fa-eye"></i>
+          Views:
+          <b>2</b>
+        </div>
+
+        <div class="logo-container">
+          <img
+            src="assets/logo.png"
+            class="profile-pic-img false"
+            crossorigin="anonymous"
+            alt="Anantha Abbas"
+          />
+        </div>
+
+        <div class="firmname">AR Dream Construction</div>
+        <div class="firmname-underline"></div>
+        <div class="name">
+          Er. Anantha Abbas
+          <span style="margin-top: 5px; display: block">
+            <i style="font-size: 12px">(Engineer)</i>
+          </span>
+        </div>
+      </div>
+      <div class="theme-stripe"></div>
+      <div class="trapezoid"></div>
+      <div class="lower">
+        <div class="contact-info-container">
+          <a
+            class="contact-button"
+            target="_blank"
+            href="tel:+918668112027"
+            rel="noreferrer"
+          >
+            <i class="fas fa-phone fa-flip-horizontal contact-buttons-icon"></i>
+            <span class="contact-buttons-text">+91 - 8668112027</span>
+          </a>
+          <a
+            class="contact-button"
+            target="_blank"
+            href="mailto:ananthabbas1984@gmail.com"
+            rel="noreferrer"
+          >
+            <i
+              class="fas fa-envelope fa-flip-horizontal contact-buttons-icon"
+            ></i>
+            <span class="contact-buttons-text">ananthabbas1984@gmail.com</span>
+          </a>
+          <a
+            class="contact-button"
+            target="_blank"
+            href="https://wa.me/918668112027?text=Got reference from your Digital vCard. Want to know more details."
+            rel="noreferrer"
+          >
+            <i class="fab fa-whatsapp contact-buttons-icon"></i>
+            <span class="contact-buttons-text">+91 - 8668112027</span>
+          </a>
+          <a
+            class="contact-button"
+            target="_blank"
+            href="https://www.google.com/maps/search/?api=1&query=361%2C+Deepak+Krishna+Complex%2C+Rajapalayam+Main+Road%2C+Attaimill%2C+Virudhu+Nagar+-+626+136."
+          >
+            <i
+              class="fas fa-map-marker-alt fa-flip-horizontal contact-buttons-icon"
+            ></i>
+            <span class="contact-buttons-text"
+              >361, Deepak Krishna Complex, Rajapalayam Main Road, Attaimill,
+              Virudhu Nagar - 626 136.</span
             >
-              <a
-                target="_blank"
-                href="https://www.google.com/maps/search/?api=1&query=361%2C+Deepak+Krishna+Complex%2C+Rajapalayam+Main+Road%2C+Attaimill%2C+Virudhu+Nagar+-+626+136."
-                class="contact-action-container-text"
-                style="color: black; margin-right: 10px; text-shadow: none"
-                rel="noreferrer"
-              >
-                <i
-                  class="fas fa-map-marker-alt contact-action-container-icon"
-                ></i>
-                361, Deepak Krishna Complex, Rajapalayam Main Road, Attaimill,
-                Virudhu Nagar - 626 136.
-              </a>
-              <a
-                href="mailto:ananthabbas1984@gmail.com"
-                class="contact-action-container-text"
-                style="color: black; margin-right: 10px; text-shadow: none"
-              >
-                <i class="fas fa-envelope contact-action-container-icon"></i>
-                ananthabbas1984@gmail.com
-              </a>
-              <a
-                target="_blank"
-                href="https://www.facebook.com/people/AR-Dream-Construction/61577306378249/#"
-                class="contact-action-container-text"
-                style="color: black; margin-right: 10px"
-                rel="noreferrer"
-              >
-                <i class="fab fa-facebook-f contact-action-container-icon"></i>
-              </a>
-              <a
-                target="_blank"
-                href="https://www.instagram.com/ardreamconstruction/"
-                class="contact-action-container-text"
-                style="color: black"
-                rel="noreferrer"
-              >
-                <i class="fab fa-instagram contact-action-container-icon"></i>
-              </a>
-            </div>
-            <div class="p-30"></div>
-            <div class="shadow-buttons">
-              <a
-                class="shadow-button improved-button"
-                href="path/to/your/contact.vcf"
-                download=""
-              >
-                <i class="fas fa-download shadow-button-icon"></i>
-                Add to Phone Book
-              </a>
-              <a class="shadow-button save-card-button">
-                <i class="fas fa-cloud-download-alt shadow-button-icon"></i>
-                Save Card
-              </a>
-            </div>
-            <div class="p-30"></div>
+          </a>
+          <a
+            class="contact-button"
+            target="_blank"
+            href="https://www.facebook.com/people/AR-Dream-Construction/61577306378249/#"
+            rel="noreferrer"
+          >
+            <i class="fab fa-facebook-f contact-buttons-icon"></i>
+            <span class="contact-buttons-text">Facebook</span>
+          </a>
+          <a
+            class="contact-button"
+            target="_blank"
+            href="https://www.instagram.com/ardreamconstruction/"
+            rel="noreferrer"
+          >
+            <i class="fab fa-instagram contact-buttons-icon"></i>
+            <span class="contact-buttons-text">Instagram</span>
+          </a>
+        </div>
+        <div class="share-buttons-box">
+          <div class="shadow-buttons">
+            <a
+              class="shadow-button"
+              href="path/to/your/contact.vcf"
+              download=""
+            >
+              <i class="fas fa-download shadow-button-icon"></i>
+              Add to Phone Book
+            </a>
+            <a class="shadow-button save-card-button">
+              <i class="fas fa-cloud-download-alt shadow-button-icon"></i>
+              Save Card
+            </a>
           </div>
         </div>
+        <div class="p-20"></div>
       </div>
     </div>
 
     <div class="section-container" id="about-us-section">
+      <div class="theme-stripe"></div>
+      <div class="trapezoid section-top-trapezoid"></div>
       <div class="section-content-wrapper">
         <h2 class="section-header">About Us</h2>
         <table class="about-us-table">
@@ -275,26 +277,40 @@
           <li>A great experience with Happy clients</li>
         </ul>
         <div class="about-us-text">
-          <h2>AR Dream Construction - Virudhu Nagar</h2>
-          <h3>
+          <p><strong>AR Dream Construction - Virudhu Nagar</strong></p>
+          <p>
             Established in 2020, AR Dream Construction is a leading provider of
             construction services in Virudhu Nagar. We specialize in general
             construction, JCB services, and concrete machine rentals, committed
             to delivering quality and reliability in every project.
-          </h3>
-          <h3>
+          </p>
+          <p>
             We focus on building a trusted and supportive agency for all your
             business and construction needs.
-          </h3>
+          </p>
         </div>
       </div>
+      <div class="trapezoid section-bottom-trapezoid"></div>
+      <div class="theme-stripe"></div>
     </div>
+
     <div class="section-container" id="products-services-section">
+      <div class="theme-stripe"></div>
+      <div class="trapezoid section-top-trapezoid"></div>
       <div class="section-content-wrapper">
         <h2 class="section-header">Our Services</h2>
         <div class="product-section-wrapper">
           <div class="product-card card">
             <h3 class="card-title">Construction Services</h3>
+            <div class="product-slideshow-container">
+              <div class="product-slide fade">
+                <img
+                  src="/assets/Service 1.jpg"
+                  style="width: 100%"
+                  alt="Construction Services"
+                />
+              </div>
+            </div>
             <div class="product-description">
               <p>
                 We provide comprehensive construction services for residential
@@ -302,12 +318,6 @@
                 start to finish.
               </p>
             </div>
-            <img
-              class="product-image"
-              alt="Construction Services"
-              src="/assets/Service 1.jpg"
-              style="width: 100%; margin-bottom: 15px"
-            />
             <div class="product-enquiry-section">
               <div class="product-price"></div>
               <div>
@@ -322,18 +332,21 @@
           </div>
           <div class="product-card card">
             <h3 class="card-title">JCB Services</h3>
+            <div class="product-slideshow-container">
+              <div class="product-slide fade">
+                <img
+                  src="assets/Service 2.jpeg"
+                  style="width: 100%"
+                  alt="JCB Services"
+                />
+              </div>
+            </div>
             <div class="product-description">
               <p>
                 Offering reliable and efficient JCB rentals for excavation,
                 demolition, and all your earth-moving needs.
               </p>
             </div>
-            <img
-              class="product-image"
-              alt="JCB Services"
-              src="assets/Service 2.jpeg"
-              style="width: 100%; margin-bottom: 15px"
-            />
             <div class="product-enquiry-section">
               <div class="product-price"></div>
               <div>
@@ -348,18 +361,21 @@
           </div>
           <div class="product-card card">
             <h3 class="card-title">Concrete Machine Services</h3>
+            <div class="product-slideshow-container">
+              <div class="product-slide fade">
+                <img
+                  src="assets/Service 3.jpeg"
+                  style="width: 100%"
+                  alt="Concrete Machine Services"
+                />
+              </div>
+            </div>
             <div class="product-description">
               <p>
                 High-performance concrete mixing machines available for rent to
                 ensure a strong foundation for your projects.
               </p>
             </div>
-            <img
-              class="product-image"
-              alt="Concrete Machine Services"
-              src="assets/Service 3.jpeg"
-              style="width: 100%; margin-bottom: 15px"
-            />
             <div class="product-enquiry-section">
               <div class="product-price"></div>
               <div>
@@ -374,8 +390,13 @@
           </div>
         </div>
       </div>
+      <div class="trapezoid section-bottom-trapezoid"></div>
+      <div class="theme-stripe"></div>
     </div>
+
     <div class="section-container" id="gallery-section">
+      <div class="theme-stripe"></div>
+      <div class="trapezoid section-top-trapezoid"></div>
       <div class="section-content-wrapper">
         <h2 class="section-header">Gallery</h2>
         <div class="images-container">
@@ -413,8 +434,13 @@
           </div>
         </div>
       </div>
+      <div class="trapezoid section-bottom-trapezoid"></div>
+      <div class="theme-stripe"></div>
     </div>
+
     <div class="section-container" id="feedback-section">
+      <div class="theme-stripe"></div>
+      <div class="trapezoid section-top-trapezoid"></div>
       <div class="section-content-wrapper">
         <h2 class="section-header">Feedback</h2>
         <div class="feedback-list" id="feedback-list"></div>
@@ -449,8 +475,13 @@
           </div>
         </form>
       </div>
+      <div class="trapezoid section-bottom-trapezoid"></div>
+      <div class="theme-stripe"></div>
     </div>
+
     <div class="section-container" id="enquiry-section">
+      <div class="theme-stripe"></div>
+      <div class="trapezoid section-top-trapezoid"></div>
       <div class="section-content-wrapper">
         <h2 class="section-header">Enquiry Form</h2>
         <form class="enquiry-form" novalidate="">
@@ -495,8 +526,13 @@
           />
         </form>
       </div>
+      <div class="trapezoid section-bottom-trapezoid"></div>
+      <div class="theme-stripe"></div>
     </div>
+
     <div class="section-container" id="share-section">
+      <div class="theme-stripe"></div>
+      <div class="trapezoid section-top-trapezoid"></div>
       <div class="section-content-wrapper">
         <h2 class="section-header">Share</h2>
         <div>
@@ -565,7 +601,10 @@
           </div>
         </div>
       </div>
+      <div class="trapezoid section-bottom-trapezoid"></div>
+      <div class="theme-stripe"></div>
     </div>
+
     <div class="copyright-wrapper">
       <div class="copyright-wrapper-inner">
         © 2025
@@ -574,6 +613,7 @@
         </a>
       </div>
     </div>
+
     <div class="footer">
       <ul class="footer-menu">
         <li>
@@ -620,6 +660,7 @@
         </li>
       </ul>
     </div>
+
     <div id="imageModal" class="modal">
       <span class="close" id="imageModalClose">×</span>
       <img class="modal-content fadeIn" id="img01" alt="Modal" />
@@ -635,7 +676,7 @@
           <p>Share my Digital vCard in your network.</p>
           <div class="share-buttons-heading">
             <img
-              src="../templates/template1/tild-arrow.svg"
+              src="templates/template1/tild-arrow.svg"
               class="share-buttons-arrow"
               alt="tild arrow"
             />
@@ -702,33 +743,7 @@
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/js/intlTelInput.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/js/utils.min.js"></script>
-    <script src="../templates/common/js/star-rating.js"></script>
-    <script src="../templates/common/js/script.13.js"></script>
-
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        // Select all footer menu links
-        const scrollLinks = document.querySelectorAll("a.footer-menu-link");
-
-        for (const link of scrollLinks) {
-          link.addEventListener("click", function (e) {
-            // Prevent the default jump and the old script's redirect
-            e.preventDefault();
-            e.stopPropagation();
-
-            const targetId = this.getAttribute("href");
-            const targetElement = document.querySelector(targetId);
-
-            if (targetElement) {
-              // Scroll smoothly to the target section
-              targetElement.scrollIntoView({
-                behavior: "smooth",
-                block: "start",
-              });
-            }
-          });
-        }
-      });
-    </script>
+    <script src="templates/common/js/star-rating.js"></script>
+    <script src="templates/common/js/script.13.js"></script>
   </body>
 </html>
