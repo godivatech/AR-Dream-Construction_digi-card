@@ -5,27 +5,26 @@
   right: 0;
   top: 160px;
   width: 100%;
-  /* You can adjust top value to move content further */
 }
 /* Existing styles remain unchanged */
 .contact-buttons {
   margin: 0 -20px;
   padding: 10px 20px;
   text-align: left;
-  position: relative; /* Add relative positioning */
-  left: 20px; /* Shift right by 20px; adjust as needed */
+  position: relative;
+  left: 20px;
 }
 
 /* Rest of the CSS remains unchanged */
 .name-move {
   position: relative;
-  top: -60px; /* Keeps the upward movement */
-  left: 20px; /* Keeps the rightward movement */
+  top: -60px;
+  left: 20px;
 }
 
 /* Updated design for the "Add to Phone Book" button */
 .improved-button {
-  background-color: #0085c4; /* Default color set to blue */
+  background-color: #0085c4;
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
@@ -37,21 +36,21 @@
 }
 
 .improved-button:hover {
-  background-color: #006bb3; /* Darker blue on hover */
+  background-color: #006bb3;
 }
 
 .improved-button .shadow-button-icon {
-  margin-right: 8px; /* Space between icon and text */
+  margin-right: 8px;
 }
 
 /* Override .shadow-button's grey background for this button */
 .improved-button {
-  background: #0085c4 !important; /* Ensure grey from .shadow-button is overridden */
+  background: #0085c4 !important;
 }
 
 /* Existing styles remain unchanged */
 .contact-action-container-text {
-  color: black; /* Ensures base color is black */
+  color: black;
   margin-right: 10px;
   font-size: 13px;
   display: inline-block;
@@ -63,7 +62,7 @@
 .name-move .name {
   font-size: 14px;
   font-weight: 500;
-  color: black !important; /* Enforce black color */
+  color: black !important;
   letter-spacing: 0.6px;
   margin: 0;
   margin-bottom: 7px;
@@ -83,10 +82,6 @@
   line-height: 20px;
 }
 
-/* Rest of the CSS remains unchanged */
-/* Rest of the CSS remains unchanged */
-
-/* Rest of the CSS remains unchanged */
 :root {
   --theme-color: #0085c4;
 }
@@ -94,6 +89,7 @@ html {
   scroll-behavior: smooth;
 }
 
+/* ================== PADDING REMOVED FOR EDGE-TO-EDGE LOOK ================== */
 body {
   font-family: "Roboto", sans-serif;
   margin: 0 auto;
@@ -103,11 +99,11 @@ body {
   text-align: center;
   box-shadow: 1px 2px 15px #48484833;
   background-image: url("./bgwood.jpg");
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 15px;
-  padding-bottom: 90px;
+  /* padding-left, padding-right, and padding-top have been removed. */
+  padding-bottom: 90px; /* Kept to prevent content from hiding behind the footer */
 }
+/* ========================================================================= */
+
 .page-details {
   background-image: url("./2.jpg");
   background-position: center;
@@ -116,7 +112,7 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   position: relative;
-  min-height: 619px; /* 450px * (990/719) to maintain aspect ratio */
+  min-height: 619px;
 }
 
 .p-10 {
@@ -195,7 +191,7 @@ body {
 }
 
 .contact-action-container-text {
-  color: black; /* Changed to black from #f1f1f1 */
+  color: black;
   margin-left: 10px;
   font-size: 13px;
   margin-right: 10px;
@@ -559,16 +555,6 @@ textarea {
   font-size: 12px;
 }
 
-@media only screen and (max-width: 450px) {
-  .modal-content {
-    width: 100%;
-  }
-
-  .share-modal {
-    align-items: flex-end;
-  }
-}
-
 .orderedList {
   list-style: decimal;
   padding-left: 16px;
@@ -609,6 +595,7 @@ textarea {
   right: 0;
 }
 
+/* ================== NEGATIVE MARGINS REMOVED ================== */
 .copyright-wrapper {
   color: rgba(0, 0, 0, 0.8);
   padding: 5px;
@@ -616,10 +603,10 @@ textarea {
   font-size: 14px;
   line-height: 22px;
   margin-top: 15px;
-  margin-left: -15px;
-  margin-right: -15px;
+  /* margin-left & margin-right removed */
   margin-bottom: -22px;
 }
+/* ============================================================= */
 
 .copyright-wrapper a {
   color: rgba(0, 0, 0, 0.8);
@@ -764,4 +751,26 @@ textarea {
 .iti__country-name,
 .iti__flag-box {
   color: #555555;
+}
+
+@media (max-width: 450px) {
+  .modal-content {
+    width: 100%;
+  }
+
+  .share-modal {
+    align-items: flex-end;
+  }
+
+  .page-details {
+    min-height: 580px;
+  }
+
+  .card-content-spacer {
+    top: 145px;
+  }
+
+  .name-move {
+    top: -55px;
+  }
 }
