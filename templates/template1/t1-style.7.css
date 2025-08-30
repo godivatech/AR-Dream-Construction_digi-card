@@ -2,30 +2,14 @@
   --theme-color: #78c9d1;
   --theme-color-light: #78c9d126;
 }
-@font-face {
-  font-family: "Uniform";
-  src: url("../template2/fonts/Uniform.ttf");
-}
-@font-face {
-  font-family: "Uniform Medium";
-  src: url("../template2/fonts/Uniform\ Medium.ttf");
-}
-@font-face {
-  font-family: "Uniform";
-  src: url("../template2/fonts/Uniform\ Medium.ttf");
-  font-weight: 500;
-}
-@font-face {
-  font-family: "Uniform Bold";
-  src: url("../template2/fonts/Uniform\ Bold.ttf");
-}
+/* Poppins font family - loaded from Google Fonts */
 
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: "Uniform", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0 auto;
   color: #555555;
   text-decoration: none;
@@ -47,7 +31,8 @@ a {
 
 strong,
 b {
-  font-family: "Uniform Medium";
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 
 .upper {
@@ -80,16 +65,16 @@ b {
 .logo-container {
   background: #ffffff;
   border-radius: 15px;
-  padding: 15px;
+  padding: 20px;
   margin-bottom: 5px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .profile-pic-img {
-  max-width: 120px;
+  max-width: 180px;
   margin-bottom: 0;
-  border: 5px solid var(--theme-color);
-  padding: 5px;
+  border: none;
+  padding: 0;
 }
 .profile-pic-img.no-border {
   border: 0;
@@ -98,7 +83,8 @@ b {
 
 .firmname {
   font-size: 17px;
-  font-family: "Uniform Medium";
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
   margin: 10px 0;
   text-transform: uppercase;
 }
@@ -111,7 +97,7 @@ b {
 }
 
 .name {
-  font-family: "Uniform";
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   margin: 4px 0 0;
 }
@@ -256,7 +242,8 @@ b {
   color: #666666;
   text-decoration: none;
   font-size: 14px;
-  font-family: "Uniform Medium";
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
   max-width: 310px;
   display: inline-block;
   line-height: 24px;
@@ -311,6 +298,8 @@ b {
   text-align: center;
   margin-top: -20px;
   margin-bottom: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 .section-container {
   text-align: left;
@@ -351,7 +340,8 @@ b {
   margin: 0;
   padding: 0;
   margin-bottom: 15px;
-  font-family: "Uniform Medium";
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 /* Card CSS Completed */
 
@@ -378,7 +368,8 @@ b {
 .about-us-table .table-row-label .table-row-label-text {
   display: inline-block;
   margin: 0;
-  font-family: "Uniform Medium";
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
   font-size: 14px;
 }
 
@@ -388,7 +379,8 @@ b {
 }
 
 .speciality-label {
-  font-family: "Uniform Medium";
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 
 .about-us-text {
@@ -430,7 +422,8 @@ b {
 }
 
 .other-links-wrapper .other-links-header {
-  font-family: "Uniform Medium";
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 
 .other-links-wrapper .other-links-link {
@@ -460,7 +453,8 @@ b {
 
 .product-price {
   font-size: 18px;
-  font-family: "Uniform Bold";
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
   color: var(--theme-color);
 }
 
@@ -547,7 +541,7 @@ textarea {
   resize: vertical;
   outline: none;
   font-size: 14px;
-  font-family: "Uniform", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 #feedback-section input[type="button"] {
@@ -558,7 +552,7 @@ textarea {
   border-radius: 4px;
   cursor: pointer;
   margin: 6px 0;
-  font-family: "Uniform", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 #feedback-section input[type="button"]:disabled {
@@ -638,18 +632,18 @@ textarea {
   resize: vertical;
   outline: none;
   font-size: 14px;
-  font-family: "Uniform", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .enquiry-form input[type="button"] {
   background-color: var(--theme-color);
+  font-family: "Poppins", sans-serif;
   color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   margin: 6px 0;
-  font-family: "Uniform", sans-serif;
 }
 
 .enquiry-form input[type="button"]:disabled {
@@ -747,6 +741,23 @@ textarea {
 
 .copyright-wrapper a {
   color: rgba(0, 0, 0, 0.8);
+}
+
+.developer-credit {
+  margin-top: 8px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 16px;
+}
+
+.developer-credit a {
+  color: var(--theme-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.developer-credit a:hover {
+  text-decoration: underline;
 }
 
 /* Copyright css completed */
