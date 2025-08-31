@@ -502,16 +502,20 @@ b {
 
 /* Gallery CSS Starts */
 .images-container {
-  column-count: 3;
-  -webkit-column-count: 3;
-  column-gap: 0;
-  -webkit-column-gap: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+  padding: 10px;
 }
 
 .images-container .image-wrapper {
-  break-inside: avoid;
-  -webkit-column-break-inside: avoid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 3px;
+  background: #f8f8f8;
+  border-radius: 8px;
+  min-height: 120px;
 }
 
 .images-container .image-wrapper img {
@@ -520,10 +524,13 @@ b {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
+  object-fit: cover;
+  max-height: 200px;
 }
 
 .images-container .image-wrapper img:hover {
   opacity: 0.7;
+  transform: scale(1.02);
 }
 /* Gallery CSS Completed */
 
