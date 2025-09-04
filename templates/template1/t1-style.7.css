@@ -503,7 +503,7 @@ b {
 /* Gallery CSS Starts */
 .images-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr;
   gap: 6px;
   padding: 10px;
 }
@@ -525,7 +525,7 @@ b {
   cursor: pointer;
   transition: 0.3s;
   object-fit: cover;
-  max-height: 200px;
+  max-height: none;
 }
 
 .images-container .image-wrapper img:hover {
