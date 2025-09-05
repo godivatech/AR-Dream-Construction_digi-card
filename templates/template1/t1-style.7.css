@@ -144,12 +144,12 @@ b {
   position: relative;
 }
 
-/* .contact-info-container::before {
+.contact-info-container::before {
   content: " ";
   width: 60px;
   margin: 0 auto;
   height: 75%;
-  background: var(--theme-color);
+  background: #f37021;
   border-radius: 20px 0px 0px 20px;
   box-shadow: 0 26px 20px 0 #dbdbe8;
   opacity: 0.97;
@@ -164,7 +164,7 @@ b {
   width: 60px;
   margin: 0 auto;
   height: 75%;
-  background: var(--theme-color);
+  background: #f37021;
   border-radius: 20px 0px 0px 20px;
   transform: perspective(350px) rotateY(-115deg);
   box-shadow: 0 26px 20px 0 #dbdbe8;
@@ -174,7 +174,7 @@ b {
   right: -17px;
   transform: translate(0, -50%) perspective(350px) rotateY(-65deg);
 }
- */
+
 .contact-info-container .contact-button {
   margin-bottom: 20px;
   position: relative;
