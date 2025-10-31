@@ -91,3 +91,95 @@ body {
   height: 20px;
   filter: brightness(0) invert(1);
 }
+
+/* Founder & Projects sections */
+.founder-wrapper {
+  display: flex;
+  gap: 20px;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.founder-photo {
+  flex: 0 0 180px;
+  max-width: 180px;
+}
+
+.founder-photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.founder-bio {
+  flex: 1 1 300px;
+}
+
+.founder-name {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.bio-subtitle {
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
+
+.achievements-list {
+  margin-left: 18px;
+  margin-top: 6px;
+}
+
+.projects-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+@media (min-width: 900px) {
+  .projects-gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.project-card {
+  overflow: hidden;
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.project-caption {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+/* Responsive tweaks for small screens */
+@media (max-width: 700px) {
+  .founder-wrapper {
+    flex-direction: column;
+  }
+  .founder-photo {
+    flex: 0 0 auto;
+    max-width: 220px;
+    margin: 0 auto;
+  }
+  .founder-bio {
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .projects-gallery {
+    grid-template-columns: 1fr;
+  }
+  .project-caption {
+    font-size: 13px;
+  }
+}
