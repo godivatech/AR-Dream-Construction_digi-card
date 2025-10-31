@@ -160,6 +160,12 @@ body {
   margin-top: 8px;
 }
 
+/* Ensure captions under images-container align and wrap nicely */
+.images-container .project-caption {
+  text-align: center;
+  color: #222;
+}
+
 /* Responsive tweaks for small screens */
 @media (max-width: 700px) {
   .founder-wrapper {
